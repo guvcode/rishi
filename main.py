@@ -10,7 +10,7 @@ from kivy.lang import Builder
 from bs4 import BeautifulSoup
 from kivy.clock import Clock
 
-Window.size = (350, 600)
+#Window.size = (350, 600)
 KV = """
 <Item>
 
