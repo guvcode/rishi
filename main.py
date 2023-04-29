@@ -9,6 +9,9 @@ from kivymd.uix.list import OneLineAvatarListItem
 from kivy.lang import Builder
 from bs4 import BeautifulSoup
 from kivy.clock import Clock
+from kivy.core.window import Window
+Window.softinput_mode = 'below_target'
+
 
 #Window.size = (350, 600)
 KV = """
