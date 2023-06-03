@@ -14,6 +14,8 @@ jobs:
       - name: Get Date
         id: get-date
         run: |
+          pip3 uninstall cython
+          pip3 install -U cython
           echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
         shell: bash
 
