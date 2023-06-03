@@ -101,7 +101,7 @@ android.permissions = android.permission.INTERNET, (name=android.permission.WRIT
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 30
+#android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
@@ -154,7 +154,7 @@ android.api = 30
 #android.extra_manifest_application_arguments = ./src/android/extra_manifest_application_arguments.xml
 
 # (str) Full name including package path of the Java class that implements Python Service
-# use that parameter to set custom Java class which extends PythonService
+# use that parameter to set custom Java class which extends PythonServiceaab
 #android.service_class_name = org.kivy.android.PythonService
 
 # (str) Android app theme, default is ok for Kivy-based app
@@ -324,7 +324,7 @@ android.release_artifact = aab
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-p4a.branch = develop
+#p4a.branch = master
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
